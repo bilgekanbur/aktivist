@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AnaSayfaFragment">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/mikrofon_halka"
+            android:layout_width="168dp"
+            android:layout_height="165dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="33dp"
+            android:layout_marginTop="68dp"
+            android:layout_marginEnd="13dp"
+            android:layout_toStartOf="@+id/tiyatro_halka"
+            android:src="@drawable/halka" />
+
+        <ImageView
+            android:id="@+id/ic_microphone"
+            android:layout_width="69dp"
+            android:layout_height="67dp"
+            android:layout_alignTop="@+id/mikrofon_halka"
+            android:layout_alignEnd="@+id/mikrofon_halka"
+            android:layout_alignBottom="@+id/mikrofon_halka"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="78dp"
+            android:layout_marginTop="47dp"
+            android:layout_marginEnd="49dp"
+            android:layout_marginBottom="51dp"
+            android:src="@drawable/concert" />
+
+        <ImageView
+            android:id="@+id/tiyatro_halka"
+            android:layout_width="168dp"
+            android:layout_height="165dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="68dp"
+            android:layout_marginEnd="26dp"
+            android:src="@drawable/halka" />
+
+        <ImageView
+            android:id="@+id/ic_tiyatro"
+            android:layout_width="69dp"
+            android:layout_height="67dp"
+            android:layout_alignStart="@+id/tiyatro_halka"
+            android:layout_alignTop="@+id/tiyatro_halka"
+            android:layout_alignEnd="@+id/tiyatro_halka"
+            android:layout_alignBottom="@+id/tiyatro_halka"
+            android:layout_marginStart="54dp"
+            android:layout_marginTop="52dp"
+            android:layout_marginEnd="50dp"
+            android:layout_marginBottom="49dp"
+            android:src="@drawable/tiyatro" />
+
+        <ImageView
+            android:id="@+id/sport_halka"
+            android:layout_width="168dp"
+            android:layout_height="165dp"
+            android:layout_below="@+id/mikrofon_halka"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="35dp"
+            android:layout_marginTop="4dp"
+            android:layout_marginBottom="316dp"
+            android:src="@drawable/halka" />
+
+        <ImageView
+            android:id="@+id/ic_sport"
+            android:layout_width="wrap_content"
+            android:layout_height="58dp"
+            android:layout_alignStart="@+id/sport_halka"
+            android:layout_alignTop="@+id/sport_halka"
+            android:layout_alignEnd="@+id/sport_halka"
+            android:layout_alignBottom="@+id/sport_halka"
+            android:layout_marginStart="51dp"
+            android:layout_marginTop="52dp"
+            android:layout_marginEnd="56dp"
+            android:layout_marginBottom="52dp"
+            android:src="@drawable/sport" />
+
+        <ImageView
+            android:id="@+id/education_halka"
+            android:layout_width="178dp"
+            android:layout_height="176dp"
+            android:layout_below="@+id/tiyatro_halka"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="2dp"
+            android:layout_marginTop="4dp"
+            android:layout_marginEnd="28dp"
+            android:layout_marginBottom="318dp"
+            android:layout_toEndOf="@+id/sport_halka"
+            android:src="@drawable/halka" />
+
+        <ImageView
+            android:id="@+id/ic_education"
+            android:layout_width="73dp"
+            android:layout_height="70dp"
+            android:layout_alignStart="@+id/education_halka"
+            android:layout_alignTop="@+id/education_halka"
+            android:layout_alignBottom="@+id/education_halka"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="52dp"
+            android:layout_marginTop="52dp"
+            android:layout_marginEnd="80dp"
+            android:layout_marginBottom="54dp"
+            android:src="@drawable/education" />
+
+        <ImageView
+            android:id="@+id/family_halka"
+            android:layout_width="168dp"
+            android:layout_height="165dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="114dp"
+            android:layout_marginEnd="97dp"
+            android:layout_marginBottom="150dp"
+            android:src="@drawable/halka" />
+
+        <ImageView
+            android:id="@+id/ic_family"
+            android:layout_width="84dp"
+            android:layout_height="81dp"
+            android:layout_alignStart="@+id/family_halka"
+            android:layout_alignTop="@+id/family_halka"
+            android:layout_alignEnd="@+id/family_halka"
+            android:layout_alignBottom="@+id/family_halka"
+            android:layout_marginStart="57dp"
+            android:layout_marginTop="45dp"
+            android:layout_marginEnd="58dp"
+            android:layout_marginBottom="39dp"
+            android:src="@drawable/family" />
+
+    </RelativeLayout>
+</FrameLayout>

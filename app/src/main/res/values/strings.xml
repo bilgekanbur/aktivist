@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Aktivist</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="sifre_unuttum">If you forgot your password, you can change it easily.</string>
+
+    <string-array name="filter_options">
+        <item>Music Activities</item>
+        <item>Education Activities</item>
+        <item>Theatre Activities</item>
+        <item>Family Activities</item>
+        <item>Sport Activities</item>
+    </string-array>
+</resources>

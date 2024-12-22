@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RecordFragment">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <LinearLayout
+            android:layout_width="337dp"
+            android:layout_height="602dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="49dp"
+            android:layout_marginTop="43dp"
+            android:layout_marginEnd="25dp"
+            android:layout_marginBottom="87dp"
+            android:orientation="vertical"
+            >
+
+            <EditText
+                android:id="@+id/NameText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/rounded_login"
+                android:ems="10"
+                android:hint="Name"
+                android:inputType="text"
+                android:paddingStart="10dp" />
+
+            <EditText
+                android:id="@+id/SurnameText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/rounded_login"
+                android:ems="10"
+                android:hint="Surname"
+                android:inputType="text"
+                android:paddingStart="10dp" />
+
+            <EditText
+                android:id="@+id/EmailText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/rounded_login"
+                android:ems="10"
+                android:hint="E Mail"
+                android:inputType="textEmailAddress"
+                android:paddingStart="10dp" />
+
+            <EditText
+                android:id="@+id/PhoneText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/rounded_login"
+                android:ems="10"
+                android:hint="Phone"
+                android:inputType="phone"
+                android:paddingStart="10dp" />
+
+            <EditText
+                android:id="@+id/PasswordText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/rounded_login"
+                android:ems="10"
+                android:hint="Passoword"
+                android:inputType="textPassword"
+                android:paddingStart="10dp" />
+
+            <CheckBox
+                android:id="@+id/checkBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:text="I accept the user terms"
+                android:textAlignment="textStart"
+                android:textColor="#4B3D3D"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/RecordButton"
+                android:layout_width="192dp"
+                android:layout_height="62dp"
+                android:layout_marginStart="70dp"
+                android:layout_marginTop="30dp"
+                android:text="Record" />
+        </LinearLayout>
+
+
+    </RelativeLayout>
+
+</FrameLayout>
